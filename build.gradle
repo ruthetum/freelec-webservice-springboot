@@ -31,5 +31,6 @@ dependencies {
     compile('com.h2database:h2') // 인메모리 관계형 데이터베이스 (테스트용도)
     compile('org.springframework.boot:spring-boot-starter-mustache') // mustache
     compile('org.springframework.boot:spring-boot-starter-oauth2-client') // 스프링 시큐리티 소셜 로그인 구현
+    compile('org.springframework.session:spring-session-jdbc') // 세션 저장소 - jdbc로 선택
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
